@@ -57,5 +57,22 @@
                 });
             });
         </script>
+        <h2>Displaying a View</h2>
+        <h4 class="display-view">Display view</h4>
+        <div id="result4"></div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.display-view').click(function () {
+                    $.ajax({
+                        type: 'GET',
+                        dataType: 'html',
+                        url: '@Url.Action("DisplayViewWithAjax")',
+                        success: function (result) {
+                            $('#result4').html(result);
+                        }
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

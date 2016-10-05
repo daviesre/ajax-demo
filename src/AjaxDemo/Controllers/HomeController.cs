@@ -41,5 +41,14 @@ namespace AjaxDemo.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult NewDestination(string newCity, string newCountry)
+        {
+            Destination newDestination = new Destination(newCity, newCountry);
+            db.Destinations.Add(newDestination);
+            db.SaveChanges();
+            return Json(newDestination);
+        }
     }
 }

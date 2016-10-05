@@ -103,5 +103,31 @@
                 });
             });
         </script>
+        <h2>Submitting data with a POST request</h2>
+        <form action="NewDestination" class="new-destination">
+            <label for="newCity">City: </label>
+            <input type="text" name="newCity" />
+            <label for="newCountry">Country: </label>
+            <input type="text" name="newCountry" />
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result6"></div>
+        <script type="text/javascript">
+            $(document).ready(function (event) {
+                $('.new-destination').submit(function (event) {
+                    event.preventDefault();
+                    $.ajax({
+                         url: '@Url.Action("NewDestination")',
+                         type: 'POST',
+                         dataType: 'json',
+                         data: $(this).serialize(),
+                         success: function (result) {
+                         var resultMessage = 'You added a new destination to the database!<br>Id: ' + result.id + '<br>City: ' + result.city + '<br>Country: ' + result.country;
+                         $('#result6').html(resultMessage);
+                         }
+                       });
+                    });
+                 });
+        </script>
     </body>
 </html>

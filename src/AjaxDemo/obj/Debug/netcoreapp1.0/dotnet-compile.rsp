@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\bin\Debug\netcoreapp1.0\AjaxDemo.dll
+--temp-output:C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\bin\Debug\netcoreapp1.0\AjaxDemo.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -200,12 +200,12 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\obj\Debug\netcoreapp1.0\AjaxDemodotnet-compile.deps.json",AjaxDemo.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Controllers\HomeController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Migrations\20161005000855_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Migrations\20161005000855_Initial.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Migrations\AjaxDemoContextModelSnapshot.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Models\AjaxDemoContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\AjaxDemo\src\AjaxDemo\Models\Destination.cs
+--resource:"C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\obj\Debug\netcoreapp1.0\AjaxDemodotnet-compile.deps.json",AjaxDemo.deps.json
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Program.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Startup.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Controllers\HomeController.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Migrations\20161005000855_Initial.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Migrations\20161005000855_Initial.Designer.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Migrations\AjaxDemoContextModelSnapshot.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Models\AjaxDemoContext.cs
+C:\Users\epicodus\Desktop\ajax-demo\src\AjaxDemo\Models\Destination.cs
